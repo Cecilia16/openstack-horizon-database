@@ -1,0 +1,273 @@
+2014-11-12 15:34:36,530 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-12 15:34:36,532 INFO database-api 1.0.1 started !!!
+2014-11-12 17:24:19,348 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-12 17:24:19,351 INFO database-api 1.0.1 started !!!
+2014-11-12 19:07:22,941 INFO isBeingDebugged=True
+2014-11-12 19:07:22,941 INFO isBeingDebugged=True
+2014-11-12 19:07:22,967 INFO project_id=project_994f252d-ca4f-42b6-927c-9032a1894770, keyname=11111, keyvalue=22222
+2014-11-12 19:07:22,967 INFO project_id=project_994f252d-ca4f-42b6-927c-9032a1894770, keyname=11111, keyvalue=22222
+2014-11-12 19:22:54,039 INFO project_id=project_56ce11c9-2072-4a7c-b727-0a485e486c17, keyname=11111, keyvalue=22222
+2014-11-12 19:22:54,039 INFO project_id=project_56ce11c9-2072-4a7c-b727-0a485e486c17, keyname=11111, keyvalue=22222
+2014-11-12 19:24:27,388 INFO project_id=project_d2dc526c-283c-4354-bcb1-daf159d91920, keyname=11111, keyvalue=22222
+2014-11-12 19:24:27,388 INFO project_id=project_d2dc526c-283c-4354-bcb1-daf159d91920, keyname=11111, keyvalue=22222
+2014-11-12 19:24:27,865 INFO project_id=project_d2dc526c-283c-4354-bcb1-daf159d91920, keyname=11111
+2014-11-12 19:24:27,865 INFO project_id=project_d2dc526c-283c-4354-bcb1-daf159d91920, keyname=11111
+2014-11-12 19:24:28,085 INFO project_id=project_d2dc526c-283c-4354-bcb1-daf159d91920, keyname=11111, keyvalue=22222_303d8b9e-4a12-4b1c-81b2-06e052fd1932
+2014-11-12 19:24:28,085 INFO project_id=project_d2dc526c-283c-4354-bcb1-daf159d91920, keyname=11111, keyvalue=22222_303d8b9e-4a12-4b1c-81b2-06e052fd1932
+2014-11-12 19:24:28,256 INFO project_id=project_d2dc526c-283c-4354-bcb1-daf159d91920, keyname=11111
+2014-11-12 19:24:28,256 INFO project_id=project_d2dc526c-283c-4354-bcb1-daf159d91920, keyname=11111
+2014-11-12 19:24:28,660 INFO project_id=project_d2dc526c-283c-4354-bcb1-daf159d91920, keyname=111111, keyvalue=22222
+2014-11-12 19:24:28,660 INFO project_id=project_d2dc526c-283c-4354-bcb1-daf159d91920, keyname=111111, keyvalue=22222
+2014-11-12 19:24:29,285 INFO project_id=project_d2dc526c-283c-4354-bcb1-daf159d91920, keyname=111112, keyvalue=22222
+2014-11-12 19:24:29,285 INFO project_id=project_d2dc526c-283c-4354-bcb1-daf159d91920, keyname=111112, keyvalue=22222
+2014-11-12 19:24:29,946 INFO project_id=project_d2dc526c-283c-4354-bcb1-daf159d91920, keyname=None
+2014-11-12 19:24:29,946 INFO project_id=project_d2dc526c-283c-4354-bcb1-daf159d91920, keyname=None
+2014-11-14 07:53:40,490 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-14 07:53:40,492 INFO database-api 2.0.0 started !!!
+2014-11-14 08:35:03,664 INFO isBeingDebugged=True
+2014-11-14 08:35:03,664 INFO isBeingDebugged=True
+2014-11-14 08:35:03,674 INFO project_id=project_9c258716-1a6b-470b-bb29-f7b21c9aef16, keyname=11111, keyvalue=22222
+2014-11-14 08:35:03,674 INFO project_id=project_9c258716-1a6b-470b-bb29-f7b21c9aef16, keyname=11111, keyvalue=22222
+2014-11-14 08:39:02,030 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-14 08:39:02,032 INFO database-api 2.0.0 started !!!
+2014-11-14 14:03:13,575 INFO isBeingDebugged=True
+2014-11-14 14:03:13,575 INFO isBeingDebugged=True
+2014-11-14 14:03:13,631 INFO project_id=project_86f30840-41d0-4e9c-8a3b-cc8e74775e66, keyname=11111, keyvalue=22222
+2014-11-14 14:03:13,631 INFO project_id=project_86f30840-41d0-4e9c-8a3b-cc8e74775e66, keyname=11111, keyvalue=22222
+2014-11-14 14:05:29,223 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-14 14:05:29,224 INFO database-api 2.0.0 started !!!
+2014-11-14 14:06:54,411 INFO isBeingDebugged=True
+2014-11-14 14:06:54,411 INFO isBeingDebugged=True
+2014-11-14 14:06:54,417 INFO project_id=project_d4e06996-95a4-43c9-942f-17f7144056c1, keyname=11111, keyvalue=22222
+2014-11-14 14:06:54,417 INFO project_id=project_d4e06996-95a4-43c9-942f-17f7144056c1, keyname=11111, keyvalue=22222
+2014-11-14 14:16:54,832 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-14 14:16:54,834 INFO database-api 2.0.0 started !!!
+2014-11-14 14:30:14,344 INFO isBeingDebugged=True
+2014-11-14 14:30:14,344 INFO isBeingDebugged=True
+2014-11-14 14:30:14,355 INFO project_id=project_b20fa2a4-c347-4e1c-83d0-d09a16038213, keyname=11111, keyvalue=22222
+2014-11-14 14:30:14,355 INFO project_id=project_b20fa2a4-c347-4e1c-83d0-d09a16038213, keyname=11111, keyvalue=22222
+2014-11-14 14:32:22,631 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-14 14:32:22,660 INFO database-api 2.0.0 started !!!
+2014-11-14 14:32:31,117 INFO isBeingDebugged=True
+2014-11-14 14:32:31,117 INFO isBeingDebugged=True
+2014-11-14 14:32:31,121 INFO project_id=project_3a9c7c01-0b3e-479d-ad9d-6ac193758afe, keyname=11111, keyvalue=22222
+2014-11-14 14:32:31,121 INFO project_id=project_3a9c7c01-0b3e-479d-ad9d-6ac193758afe, keyname=11111, keyvalue=22222
+2014-11-14 15:11:40,601 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-14 15:11:40,602 INFO database-api 2.0.0 started !!!
+2014-11-14 15:13:33,456 INFO isBeingDebugged=True
+2014-11-14 15:13:33,456 INFO isBeingDebugged=True
+2014-11-14 15:13:33,463 INFO project_id=project_545a75ba-9eec-4f2a-8f58-548b441f1e26, keyname=11111, keyvalue=22222
+2014-11-14 15:13:33,463 INFO project_id=project_545a75ba-9eec-4f2a-8f58-548b441f1e26, keyname=11111, keyvalue=22222
+2014-11-16 15:32:58,382 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-16 15:32:58,384 INFO database-api 2.0.0 started !!!
+2014-11-16 18:42:07,632 INFO isBeingDebugged=True
+2014-11-16 18:42:07,632 INFO isBeingDebugged=True
+2014-11-16 18:42:07,647 INFO project_id=project_963a8455-0c56-46e2-abb7-59a5b7630321, keyname=11111, keyvalue=22222
+2014-11-16 18:42:07,647 INFO project_id=project_963a8455-0c56-46e2-abb7-59a5b7630321, keyname=11111, keyvalue=22222
+2014-11-16 18:46:26,773 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-16 18:46:26,775 INFO database-api 2.0.0 started !!!
+2014-11-16 18:48:58,891 INFO isBeingDebugged=True
+2014-11-16 18:48:58,891 INFO isBeingDebugged=True
+2014-11-16 18:48:58,898 INFO project_id=project_439c06cd-c1ed-4a7c-a0ea-fec7ec04680d, keyname=11111, keyvalue=22222
+2014-11-16 18:48:58,898 INFO project_id=project_439c06cd-c1ed-4a7c-a0ea-fec7ec04680d, keyname=11111, keyvalue=22222
+2014-11-16 18:55:22,747 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-16 18:55:22,750 INFO database-api 2.0.0 started !!!
+2014-11-16 18:55:43,207 INFO isBeingDebugged=True
+2014-11-16 18:55:43,207 INFO isBeingDebugged=True
+2014-11-16 18:55:43,211 INFO project_id=project_3e9a7c3e-d051-4839-bb2b-16ee5ed3004d, keyname=11111, keyvalue=22222
+2014-11-16 18:55:43,211 INFO project_id=project_3e9a7c3e-d051-4839-bb2b-16ee5ed3004d, keyname=11111, keyvalue=22222
+2014-11-16 18:57:14,714 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-16 18:57:14,717 INFO database-api 2.0.0 started !!!
+2014-11-16 18:57:28,921 INFO isBeingDebugged=True
+2014-11-16 18:57:28,921 INFO isBeingDebugged=True
+2014-11-16 18:57:28,926 INFO project_id=project_72cd24a9-00b4-441e-90fc-26bf568ffe9d, keyname=11111, keyvalue=22222
+2014-11-16 18:57:28,926 INFO project_id=project_72cd24a9-00b4-441e-90fc-26bf568ffe9d, keyname=11111, keyvalue=22222
+2014-11-16 18:57:51,729 INFO project_id=project_72cd24a9-00b4-441e-90fc-26bf568ffe9d, keyname=11111
+2014-11-16 18:57:51,729 INFO project_id=project_72cd24a9-00b4-441e-90fc-26bf568ffe9d, keyname=11111
+2014-11-16 18:59:32,624 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-16 18:59:32,653 INFO database-api 2.0.0 started !!!
+2014-11-16 19:07:48,259 INFO isBeingDebugged=True
+2014-11-16 19:07:48,259 INFO isBeingDebugged=True
+2014-11-16 19:07:48,265 INFO project_id=project_14a8462f-4507-46c8-921f-55ead6758d65, keyname=11111, keyvalue=22222
+2014-11-16 19:07:48,265 INFO project_id=project_14a8462f-4507-46c8-921f-55ead6758d65, keyname=11111, keyvalue=22222
+2014-11-16 19:10:34,996 INFO project_id=project_14a8462f-4507-46c8-921f-55ead6758d65, keyname=11111
+2014-11-16 19:10:34,996 INFO project_id=project_14a8462f-4507-46c8-921f-55ead6758d65, keyname=11111
+2014-11-16 19:15:30,980 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-16 19:15:30,982 INFO database-api 2.0.0 started !!!
+2014-11-16 19:15:41,809 INFO isBeingDebugged=True
+2014-11-16 19:15:41,809 INFO isBeingDebugged=True
+2014-11-16 19:15:41,813 INFO project_id=project_c31d1292-698a-4231-a1df-30757cbea4d8, keyname=11111, keyvalue=22222
+2014-11-16 19:15:41,813 INFO project_id=project_c31d1292-698a-4231-a1df-30757cbea4d8, keyname=11111, keyvalue=22222
+2014-11-16 19:16:17,130 INFO project_id=project_cde21441-6f5b-43ef-9515-c41626227ae3, keyname=11111, keyvalue=22222
+2014-11-16 19:16:17,130 INFO project_id=project_cde21441-6f5b-43ef-9515-c41626227ae3, keyname=11111, keyvalue=22222
+2014-11-16 19:16:40,122 INFO project_id=project_cde21441-6f5b-43ef-9515-c41626227ae3, keyname=11111
+2014-11-16 19:16:40,122 INFO project_id=project_cde21441-6f5b-43ef-9515-c41626227ae3, keyname=11111
+2014-11-16 19:17:18,789 INFO project_id=project_9e5c7300-6039-4a35-87f2-59c260a8aadf, keyname=11111, keyvalue=22222
+2014-11-16 19:17:18,789 INFO project_id=project_9e5c7300-6039-4a35-87f2-59c260a8aadf, keyname=11111, keyvalue=22222
+2014-11-16 19:18:00,687 INFO project_id=project_9e5c7300-6039-4a35-87f2-59c260a8aadf, keyname=11111
+2014-11-16 19:18:00,687 INFO project_id=project_9e5c7300-6039-4a35-87f2-59c260a8aadf, keyname=11111
+2014-11-16 19:20:08,171 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-16 19:20:08,173 INFO database-api 2.0.0 started !!!
+2014-11-16 19:27:48,595 INFO isBeingDebugged=True
+2014-11-16 19:27:48,595 INFO isBeingDebugged=True
+2014-11-16 19:27:48,604 INFO project_id=project_d3675d26-4f90-4eb0-a748-48f2b2f2136b, keyname=11111, keyvalue=22222
+2014-11-16 19:27:48,604 INFO project_id=project_d3675d26-4f90-4eb0-a748-48f2b2f2136b, keyname=11111, keyvalue=22222
+2014-11-16 19:28:49,971 INFO project_id=project_d3675d26-4f90-4eb0-a748-48f2b2f2136b, keyname=11111
+2014-11-16 19:28:49,971 INFO project_id=project_d3675d26-4f90-4eb0-a748-48f2b2f2136b, keyname=11111
+2014-11-16 19:36:31,395 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-16 19:36:31,398 INFO database-api 2.0.0 started !!!
+2014-11-16 19:38:07,407 INFO isBeingDebugged=True
+2014-11-16 19:38:07,407 INFO isBeingDebugged=True
+2014-11-16 19:38:07,413 INFO project_id=project_8f17233e-c31d-4ae4-b4b6-8cac814e4c0c, keyname=11111, keyvalue=22222
+2014-11-16 19:38:07,413 INFO project_id=project_8f17233e-c31d-4ae4-b4b6-8cac814e4c0c, keyname=11111, keyvalue=22222
+2014-11-16 19:38:35,842 INFO project_id=project_8f17233e-c31d-4ae4-b4b6-8cac814e4c0c, keyname=11111
+2014-11-16 19:38:35,842 INFO project_id=project_8f17233e-c31d-4ae4-b4b6-8cac814e4c0c, keyname=11111
+2014-11-16 19:41:54,180 INFO project_id=project_19b341c6-75c8-4352-b132-5a8daf189724, keyname=11111, keyvalue=22222
+2014-11-16 19:41:54,180 INFO project_id=project_19b341c6-75c8-4352-b132-5a8daf189724, keyname=11111, keyvalue=22222
+2014-11-16 19:42:30,565 INFO project_id=project_c6c38e5e-4185-49d1-81c7-6fa59574cc16, keyname=11111, keyvalue=22222
+2014-11-16 19:42:30,565 INFO project_id=project_c6c38e5e-4185-49d1-81c7-6fa59574cc16, keyname=11111, keyvalue=22222
+2014-11-16 19:43:17,413 INFO project_id=project_c6c38e5e-4185-49d1-81c7-6fa59574cc16, keyname=11111
+2014-11-16 19:43:17,413 INFO project_id=project_c6c38e5e-4185-49d1-81c7-6fa59574cc16, keyname=11111
+2014-11-22 11:16:09,917 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-22 11:16:09,918 ERROR Database does not exist! Because: global name 'MySQLdb' is not defined
+2014-11-22 11:16:09,920 WARNING Database does not exist!
+2014-11-22 11:19:03,562 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-22 11:49:01,414 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-22 11:49:01,414 ERROR Database does not exist! Because: global name 'MySQLdb' is not defined
+2014-11-22 11:49:01,415 WARNING Database does not exist!
+2014-11-22 12:05:51,184 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-22 12:05:51,210 ERROR Database does not exist! Because: an integer is required
+2014-11-22 12:05:51,210 WARNING Database does not exist!
+2014-11-22 12:09:16,687 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-22 12:09:16,703 ERROR Database does not exist! Because: an integer is required
+2014-11-22 12:09:16,703 WARNING (1) Database does not exist!
+2014-11-22 12:09:16,703 ERROR Database does not exist! Because: an integer is required
+2014-11-22 12:09:16,703 WARNING (0) Database does not exist!
+2014-11-22 12:12:04,007 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-22 12:12:04,026 ERROR Database does not exist! Because: an integer is required
+2014-11-22 12:12:04,026 WARNING (1) Database does not exist!
+2014-11-22 12:12:04,028 ERROR Database does not exist! Because: an integer is required
+2014-11-22 12:12:04,029 WARNING (0) Database does not exist!
+2014-11-22 12:13:24,937 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-22 12:13:24,973 ERROR Database does not exist! Because: (1049, "Unknown database 'horizon2'")
+2014-11-22 12:13:24,974 WARNING (1) Database does not exist!
+2014-11-22 12:13:24,983 ERROR Database does not exist! Because: (1049, "Unknown database 'horizon2'")
+2014-11-22 12:13:24,984 WARNING (0) Database does not exist!
+2014-11-22 12:16:34,151 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-22 12:16:34,377 ERROR Database does not exist! Because: (1049, "Unknown database 'horizon'")
+2014-11-22 12:16:34,378 WARNING (1) Database does not exist!
+2014-11-22 12:16:34,509 ERROR Database does not exist! Because: (1049, "Unknown database 'horizon'")
+2014-11-22 12:16:34,509 WARNING (0) Database does not exist!
+2014-11-22 12:26:18,660 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-22 12:26:19,019 ERROR Database does not exist! Because: (1049, "Unknown database 'horizon'")
+2014-11-22 12:26:19,019 INFO Attempting to create the database
+2014-11-22 12:26:19,020 WARNING (1) Database does not exist!
+2014-11-22 12:26:19,033 ERROR Database does not exist! Because: (1049, "Unknown database 'horizon'")
+2014-11-22 12:26:19,033 INFO Attempting to create the database
+2014-11-22 12:26:19,035 WARNING (0) Database does not exist!
+2014-11-22 12:28:32,016 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-22 12:28:32,316 ERROR (1) Database does not exist! Because: (1049, "Unknown database 'horizon'")
+2014-11-22 12:28:32,318 INFO Attempting to create the database
+2014-11-22 12:28:32,342 INFO Successful connection to the database server.
+2014-11-22 12:28:32,342 WARNING (1) Database does not exist!
+2014-11-22 12:28:32,362 ERROR (1) Database does not exist! Because: (1049, "Unknown database 'horizon'")
+2014-11-22 12:28:32,364 INFO Attempting to create the database
+2014-11-22 12:28:32,378 INFO Successful connection to the database server.
+2014-11-22 12:28:32,380 WARNING (0) Database does not exist!
+2014-11-22 15:12:59,881 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-22 15:12:59,921 ERROR (1) Database does not exist! Because: (1049, "Unknown database 'horizon'")
+2014-11-22 15:12:59,921 INFO Attempting to create the database
+2014-11-22 15:12:59,940 INFO Successful connection to the database server.
+2014-11-22 15:12:59,947 WARNING (1) Database does not exist!
+2014-11-22 15:12:59,967 INFO database-api 2.0.0 started !!!
+2014-11-23 13:33:01,948 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-23 13:33:03,329 ERROR (1) Database does not exist! Because: (1049, "Unknown database 'horizon'")
+2014-11-23 13:33:03,331 INFO Attempting to create the database
+2014-11-23 13:33:08,642 INFO Successful connection to the database server.
+2014-11-23 13:33:10,302 INFO Creating tables in horizon.
+2014-11-23 13:33:52,255 WARNING (1) Database does not exist!
+2014-11-23 13:34:00,509 INFO database-api 2.0.0 started !!!
+2014-11-23 15:38:05,621 INFO isBeingDebugged=True
+2014-11-23 15:38:05,621 INFO isBeingDebugged=True
+2014-11-23 15:38:05,630 INFO project_id=project_28229e42-05c8-408c-a3f3-0c82088cf403, keyname=11111, keyvalue=22222
+2014-11-23 15:38:05,630 INFO project_id=project_28229e42-05c8-408c-a3f3-0c82088cf403, keyname=11111, keyvalue=22222
+2014-11-23 15:39:56,289 INFO project_id=project_28229e42-05c8-408c-a3f3-0c82088cf403, keyname=11111
+2014-11-23 15:39:56,289 INFO project_id=project_28229e42-05c8-408c-a3f3-0c82088cf403, keyname=11111
+2014-11-23 15:49:19,993 INFO project_id=project_8fb9fa70-47b7-4320-91ec-e719a8d50569, keyname=11111, keyvalue=22222
+2014-11-23 15:49:19,993 INFO project_id=project_8fb9fa70-47b7-4320-91ec-e719a8d50569, keyname=11111, keyvalue=22222
+2014-11-23 15:49:26,492 INFO project_id=project_8fb9fa70-47b7-4320-91ec-e719a8d50569, keyname=11111
+2014-11-23 15:49:26,492 INFO project_id=project_8fb9fa70-47b7-4320-91ec-e719a8d50569, keyname=11111
+2014-11-23 15:51:33,115 INFO project_id=project_306cb77e-e652-492c-8ca7-80e8982d4138, keyname=11111, keyvalue=22222
+2014-11-23 15:51:33,115 INFO project_id=project_306cb77e-e652-492c-8ca7-80e8982d4138, keyname=11111, keyvalue=22222
+2014-11-23 15:52:18,753 INFO project_id=project_306cb77e-e652-492c-8ca7-80e8982d4138, keyname=11111
+2014-11-23 15:52:18,753 INFO project_id=project_306cb77e-e652-492c-8ca7-80e8982d4138, keyname=11111
+2014-11-23 15:58:09,750 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-23 15:58:09,915 INFO database-api 2.0.0 started !!!
+2014-11-23 15:58:21,130 INFO isBeingDebugged=True
+2014-11-23 15:58:21,130 INFO isBeingDebugged=True
+2014-11-23 15:58:21,135 INFO project_id=project_b802a674-b3b4-4d7e-8d27-1931e749fdb0, keyname=11111, keyvalue=22222
+2014-11-23 15:58:21,135 INFO project_id=project_b802a674-b3b4-4d7e-8d27-1931e749fdb0, keyname=11111, keyvalue=22222
+2014-11-23 15:58:27,441 INFO project_id=project_b802a674-b3b4-4d7e-8d27-1931e749fdb0, keyname=11111
+2014-11-23 15:58:27,441 INFO project_id=project_b802a674-b3b4-4d7e-8d27-1931e749fdb0, keyname=11111
+2014-11-23 15:59:09,161 INFO project_id=project_b802a674-b3b4-4d7e-8d27-1931e749fdb0, keyname=11111, keyvalue=22222_a0df913f-15b2-459e-8435-9cc71a1f136d
+2014-11-23 15:59:09,161 INFO project_id=project_b802a674-b3b4-4d7e-8d27-1931e749fdb0, keyname=11111, keyvalue=22222_a0df913f-15b2-459e-8435-9cc71a1f136d
+2014-11-23 16:01:17,217 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-23 16:01:17,605 INFO database-api 2.0.0 started !!!
+2014-11-23 16:15:10,072 INFO isBeingDebugged=True
+2014-11-23 16:15:10,072 INFO isBeingDebugged=True
+2014-11-23 16:15:10,078 INFO project_id=project_36d28df9-e110-4367-b9de-c1447190cd5c, keyname=11111, keyvalue=22222
+2014-11-23 16:15:10,078 INFO project_id=project_36d28df9-e110-4367-b9de-c1447190cd5c, keyname=11111, keyvalue=22222
+2014-11-23 16:15:50,680 INFO project_id=project_36d28df9-e110-4367-b9de-c1447190cd5c, keyname=11111
+2014-11-23 16:15:50,680 INFO project_id=project_36d28df9-e110-4367-b9de-c1447190cd5c, keyname=11111
+2014-11-23 16:15:54,108 INFO project_id=project_36d28df9-e110-4367-b9de-c1447190cd5c, keyname=11111, keyvalue=22222_ce4965ed-6413-4762-9f5e-9e09d57e9fd6
+2014-11-23 16:15:54,108 INFO project_id=project_36d28df9-e110-4367-b9de-c1447190cd5c, keyname=11111, keyvalue=22222_ce4965ed-6413-4762-9f5e-9e09d57e9fd6
+2014-11-23 16:17:23,654 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-23 16:17:31,296 INFO database-api 2.0.0 started !!!
+2014-11-23 16:17:51,513 INFO isBeingDebugged=True
+2014-11-23 16:17:51,513 INFO isBeingDebugged=True
+2014-11-23 16:17:51,519 INFO project_id=project_429ba1f4-d943-4116-9c33-c8dba7bf1996, keyname=11111, keyvalue=22222
+2014-11-23 16:17:51,519 INFO project_id=project_429ba1f4-d943-4116-9c33-c8dba7bf1996, keyname=11111, keyvalue=22222
+2014-11-23 16:18:16,556 INFO project_id=project_429ba1f4-d943-4116-9c33-c8dba7bf1996, keyname=11111
+2014-11-23 16:18:16,556 INFO project_id=project_429ba1f4-d943-4116-9c33-c8dba7bf1996, keyname=11111
+2014-11-23 16:18:19,112 INFO project_id=project_429ba1f4-d943-4116-9c33-c8dba7bf1996, keyname=11111, keyvalue=22222_4e5117f8-955a-4017-bf03-7812a73e892f
+2014-11-23 16:18:19,112 INFO project_id=project_429ba1f4-d943-4116-9c33-c8dba7bf1996, keyname=11111, keyvalue=22222_4e5117f8-955a-4017-bf03-7812a73e892f
+2014-11-23 16:18:48,861 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-23 16:18:48,963 INFO database-api 2.0.0 started !!!
+2014-11-23 16:18:56,545 INFO isBeingDebugged=True
+2014-11-23 16:18:56,545 INFO isBeingDebugged=True
+2014-11-23 16:18:56,549 INFO project_id=project_0e1994d3-bb4b-4798-938b-09013c8b59e3, keyname=11111, keyvalue=22222
+2014-11-23 16:18:56,549 INFO project_id=project_0e1994d3-bb4b-4798-938b-09013c8b59e3, keyname=11111, keyvalue=22222
+2014-11-23 16:19:06,648 INFO project_id=project_0e1994d3-bb4b-4798-938b-09013c8b59e3, keyname=11111
+2014-11-23 16:19:06,648 INFO project_id=project_0e1994d3-bb4b-4798-938b-09013c8b59e3, keyname=11111
+2014-11-23 16:19:11,789 INFO project_id=project_0e1994d3-bb4b-4798-938b-09013c8b59e3, keyname=11111, keyvalue=22222_591c5106-b724-4de7-bef3-bff020ca93aa
+2014-11-23 16:19:11,789 INFO project_id=project_0e1994d3-bb4b-4798-938b-09013c8b59e3, keyname=11111, keyvalue=22222_591c5106-b724-4de7-bef3-bff020ca93aa
+2014-11-23 16:23:21,088 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-23 16:23:27,644 INFO database-api 2.0.0 started !!!
+2014-11-23 16:33:05,071 INFO isBeingDebugged=True
+2014-11-23 16:33:05,071 INFO isBeingDebugged=True
+2014-11-23 16:33:05,075 INFO project_id=project_3c902f74-1cec-4bc3-8d78-3c9443a0fae1, keyname=11111, keyvalue=22222
+2014-11-23 16:33:05,075 INFO project_id=project_3c902f74-1cec-4bc3-8d78-3c9443a0fae1, keyname=11111, keyvalue=22222
+2014-11-23 16:33:13,552 INFO project_id=project_3c902f74-1cec-4bc3-8d78-3c9443a0fae1, keyname=11111
+2014-11-23 16:33:13,552 INFO project_id=project_3c902f74-1cec-4bc3-8d78-3c9443a0fae1, keyname=11111
+2014-11-23 16:33:15,940 INFO project_id=project_3c902f74-1cec-4bc3-8d78-3c9443a0fae1, keyname=11111, keyvalue=22222_922b776e-62b4-4aac-8c43-15d54a2aa134
+2014-11-23 16:33:15,940 INFO project_id=project_3c902f74-1cec-4bc3-8d78-3c9443a0fae1, keyname=11111, keyvalue=22222_922b776e-62b4-4aac-8c43-15d54a2aa134
+2014-11-23 16:33:20,808 INFO project_id=project_3c902f74-1cec-4bc3-8d78-3c9443a0fae1, keyname=11111
+2014-11-23 16:33:20,808 INFO project_id=project_3c902f74-1cec-4bc3-8d78-3c9443a0fae1, keyname=11111
+2014-11-23 16:58:31,505 INFO sys.argv=['v:\\@Vyper Logix Corp\\@Projects\\openstack-projects\\#GeonosisDB+(vyperlogix)\\database-api\\database-api.py', '0.0.0.0:9999', '-e', '-a', '0.0.0.0:9999']
+2014-11-23 16:58:35,121 INFO database-api 2.0.0 started !!!
+2014-11-23 18:28:11,900 INFO isBeingDebugged=True
+2014-11-23 18:28:11,900 INFO isBeingDebugged=True
+2014-11-23 18:28:11,907 INFO project_id=project_07011952-5f24-4027-9cf6-e225e0e44bf2, keyname=11111, keyvalue=22222
+2014-11-23 18:28:11,907 INFO project_id=project_07011952-5f24-4027-9cf6-e225e0e44bf2, keyname=11111, keyvalue=22222
+2014-11-23 18:28:16,832 INFO project_id=project_07011952-5f24-4027-9cf6-e225e0e44bf2, keyname=11111
+2014-11-23 18:28:16,832 INFO project_id=project_07011952-5f24-4027-9cf6-e225e0e44bf2, keyname=11111
+2014-11-23 18:28:17,048 INFO project_id=project_07011952-5f24-4027-9cf6-e225e0e44bf2, keyname=11111, keyvalue=22222_b44dda06-71d4-4c11-88d9-c2d3768702b9
+2014-11-23 18:28:17,048 INFO project_id=project_07011952-5f24-4027-9cf6-e225e0e44bf2, keyname=11111, keyvalue=22222_b44dda06-71d4-4c11-88d9-c2d3768702b9
+2014-11-23 18:28:17,302 INFO project_id=project_07011952-5f24-4027-9cf6-e225e0e44bf2, keyname=11111
+2014-11-23 18:28:17,302 INFO project_id=project_07011952-5f24-4027-9cf6-e225e0e44bf2, keyname=11111
+2014-11-23 18:28:17,734 INFO project_id=project_07011952-5f24-4027-9cf6-e225e0e44bf2, keyname=111111, keyvalue=22222
+2014-11-23 18:28:17,734 INFO project_id=project_07011952-5f24-4027-9cf6-e225e0e44bf2, keyname=111111, keyvalue=22222
+2014-11-23 18:28:18,332 INFO project_id=project_07011952-5f24-4027-9cf6-e225e0e44bf2, keyname=111112, keyvalue=22222
+2014-11-23 18:28:18,332 INFO project_id=project_07011952-5f24-4027-9cf6-e225e0e44bf2, keyname=111112, keyvalue=22222
+2014-11-23 18:28:19,158 INFO project_id=project_07011952-5f24-4027-9cf6-e225e0e44bf2, keyname=None
+2014-11-23 18:28:19,158 INFO project_id=project_07011952-5f24-4027-9cf6-e225e0e44bf2, keyname=None
