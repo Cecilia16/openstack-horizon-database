@@ -1,4 +1,4 @@
-openstack-horizon-database
+openstack-horizon-database (stable/havana branch)
 ==========================
 
 REST-based database API for OpenStack Horizon with Python Client
