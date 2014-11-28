@@ -83,10 +83,12 @@ class DatabaseAPI(MagicObject2):
         return SmartObject(d)
 
     def create(self, keyname, keyvalue):
+        __uri__ = normalize_uri(self.uri)+'create'
+        __data__ = json.dumps({'project_id':self.__project_id__,'keyname':keyname,'keyvalue':keyvalue})
         if (self.is_using_ssl):
-            r = requests.post(normalize_uri(self.uri)+'create',data=json.dumps({'project_id':self.__project_id__,'keyname':keyname,'keyvalue':keyvalue}),verify=self.__verify__,headers=self.__headers__)
+            r = requests.post(__uri__,data=__data__,verify=self.__verify__,headers=self.__headers__)
         else:
-            r = requests.post(normalize_uri(self.uri)+'create',data=json.dumps({'project_id':self.__project_id__,'keyname':keyname,'keyvalue':keyvalue}),headers=self.__headers__)
+            r = requests.post(__uri__,data=__data__,headers=self.__headers__)
         if (r.status_code != 200):
             r.raise_for_status()
         d = r.json()
@@ -96,10 +98,12 @@ class DatabaseAPI(MagicObject2):
         return SmartObject(d)
 
     def update(self, keyname, keyvalue):
+        __uri__ = normalize_uri(self.uri)+'update'
+        __data__ = json.dumps({'project_id':self.__project_id__,'keyname':keyname,'keyvalue':keyvalue})
         if (self.is_using_ssl):
-            r = requests.put(normalize_uri(self.uri)+'update',data=json.dumps({'project_id':self.__project_id__,'keyname':keyname,'keyvalue':keyvalue}),verify=self.__verify__,headers=self.__headers__)
+            r = requests.put(__uri__,data=__data__,verify=self.__verify__,headers=self.__headers__)
         else:
-            r = requests.put(normalize_uri(self.uri)+'update',data=json.dumps({'project_id':self.__project_id__,'keyname':keyname,'keyvalue':keyvalue}),headers=self.__headers__)
+            r = requests.put(__uri__,data=__data__,headers=self.__headers__)
         if (r.status_code != 200):
             r.raise_for_status()
         d = r.json()
@@ -108,11 +112,14 @@ class DatabaseAPI(MagicObject2):
             raise ValueError('Cannot update the requested key/value at this time due to the following: %s' % (status))
         return SmartObject(d)
 
-    def fetch(self, keyname):
+    def fetch(self, keyname=None):
+        __uri__ = normalize_uri(self.uri)+'fetch/%s' % (self.__project_id__)
+        if (keyname):
+            __uri__ += '/%s' % (keyname)
         if (self.is_using_ssl):
-            r = requests.get(normalize_uri(self.uri)+'fetch/%s/%s' % (self.__project_id__,keyname),verify=self.__verify__,headers=self.__headers__)
+            r = requests.get(__uri__,verify=self.__verify__,headers=self.__headers__)
         else:
-            r = requests.get(normalize_uri(self.uri)+'fetch/%s/%s' % (self.__project_id__,keyname),headers=self.__headers__)
+            r = requests.get(__uri__,headers=self.__headers__)
         if (r.status_code != 200):
             r.raise_for_status()
         d = r.json()
@@ -122,10 +129,11 @@ class DatabaseAPI(MagicObject2):
         return SmartObject(d)
 
     def count(self):
+        __uri__ = normalize_uri(self.uri)+'count/%s' % (self.__project_id__)
         if (self.is_using_ssl):
-            r = requests.get(normalize_uri(self.uri)+'count/%s' % (self.__project_id__),verify=self.__verify__,headers=self.__headers__)
+            r = requests.get(__uri__,verify=self.__verify__,headers=self.__headers__)
         else:
-            r = requests.get(normalize_uri(self.uri)+'count/%s' % (self.__project_id__),headers=self.__headers__)
+            r = requests.get(__uri__,headers=self.__headers__)
         if (r.status_code != 200):
             r.raise_for_status()
         d = r.json()
@@ -135,16 +143,21 @@ class DatabaseAPI(MagicObject2):
         return SmartObject(d)
 
     def delete(self, keyname=None):
+        __uri__ = normalize_uri(self.uri)+'delete'
+        __data__ = {'project_id':self.__project_id__}
+        if (keyname):
+            __data__['keyname'] = keyname
+        __data__ = json.dumps(__data__)
         if (self.is_using_ssl):
             if (keyname):
-                r = requests.delete(normalize_uri(self.uri)+'delete',data=json.dumps({'project_id':self.__project_id__,'keyname':keyname}),verify=self.__verify__,headers=self.__headers__)
+                r = requests.delete(__uri__,data=__data__,verify=self.__verify__,headers=self.__headers__)
             else:
-                r = requests.delete(normalize_uri(self.uri)+'delete',data=json.dumps({'project_id':self.__project_id__}),verify=self.__verify__,headers=self.__headers__)
+                r = requests.delete(__uri__,data=__data__,verify=self.__verify__,headers=self.__headers__)
         else:
             if (keyname):
-                r = requests.delete(normalize_uri(self.uri)+'delete',data=json.dumps({'project_id':self.__project_id__,'keyname':keyname}),headers=self.__headers__)
+                r = requests.delete(__uri__,data=__data__,headers=self.__headers__)
             else:
-                r = requests.delete(normalize_uri(self.uri)+'delete',data=json.dumps({'project_id':self.__project_id__}),headers=self.__headers__)
+                r = requests.delete(__uri__,data=__data__,headers=self.__headers__)
         if (r.status_code != 200):
             r.raise_for_status()
         d = r.json()
@@ -187,6 +200,24 @@ if (__name__ == '__main__'):
             assert str(so.status).upper() == 'SUCCESS', 'Something wrong with the first count function.'
             assert str(so.count).isdigit() == True, 'Something wrong with the count function because count value are not digits.'
             assert so.count == 1, 'Something wrong with the count function because the count value should be 1 but is not.'
+
+            print 'Create:',
+            so = db.create(options.keyname+'2', options.keyvalue)
+            print so
+            assert str(so.status).upper() == 'SUCCESS', 'Something wrong with the create function.'
+
+            print 'Count:',
+            so = db.count()
+            print so
+            assert str(so.status).upper() == 'SUCCESS', 'Something wrong with the first count function.'
+            assert str(so.count).isdigit() == True, 'Something wrong with the count function because count value are not digits.'
+            assert so.count == 2, 'Something wrong with the count function because the count value should be 1 but is not.'
+
+            print 'Fetch:',
+            so = db.fetch()
+            print so
+            assert str(so.status).upper() == 'SUCCESS', 'Something wrong with the fetch function.'
+            assert len(so.items) == 2, 'Something wrong with the fetch for all items for project.'
 
             print 'Fetch:',
             so = db.fetch(options.keyname)

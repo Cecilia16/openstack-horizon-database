@@ -100,7 +100,8 @@ from vyperlogix.misc import _utils
 from vyperlogix.misc import ObjectTypeName
 
 urls = (
-    '/', 'Index',
+    '/', 'WebRoot',
+    '/(js|css|images)/(.*)', 'StaticRoot',
     '/create/', 'DatabaseBackend',
     '/create', 'DatabaseBackend',
     '/update/', 'DatabaseBackend',
@@ -146,18 +147,18 @@ __index__ = '''
 </html>
 '''
 
-class Index:
-    __webroot__ = os.path.abspath(os.curdir)+os.sep+'html'
+class WebRoot:
+    __webroot__ = os.path.abspath(os.curdir)+os.sep+'www'
     def GET(self):
         """ Show page """
         s = 'database-api %s' % (__version__)
         web.header('Content-Type', 'text/html')
-        index_html = Index.__webroot__+os.sep+'index.html'
-        index_htm = Index.__webroot__+os.sep+'index.htm'
+        index_html = WebRoot.__webroot__+os.sep+'index.html'
+        index_htm = WebRoot.__webroot__+os.sep+'index.htm'
         is_index_html = (os.path.exists(index_html) and (os.path.isfile(index_html)))
         is_index_htm = (os.path.exists(index_htm) and (os.path.isfile(index_htm)))
         content = __index__
-        if (os.path.exists(Index.__webroot__) and (is_index_html or is_index_htm) ):
+        if (os.path.exists(WebRoot.__webroot__) and (is_index_html or is_index_htm) ):
             if (is_index_html):
                 content = ''.join(open(index_html).readlines())
             elif (is_index_htm):
@@ -166,6 +167,17 @@ class Index:
             content = __index__ % (os.path.abspath(os.curdir))
         return content
 
+class StaticRoot:
+    __webroot__ = os.path.abspath(os.curdir)+os.sep+'www'
+    def GET(self, media=None, fname=None):
+        if (media == 'js'):
+            web.header('Content-Type', 'application/javascript')
+        try:
+            fpath = os.sep.join([StaticRoot.__webroot__,media,fname])
+            f = open(fpath, 'r')
+            return f.read()
+        except:
+            raise web.notfound()
 ##############################################################
 from optparse import OptionParser
 
@@ -419,32 +431,44 @@ class DatabaseBackend:
         reasons = []
         response = {}
         toks = items.split('/')
+        project_id = None
+        keyname = None
         if (len(toks) == 2):
-            project_id = toks[0]
             keyname = toks[1]
-            logger.info('project_id=%s, keyname=%s' % (project_id,keyname))
-            try:
+        if (len(toks) == 1):
+            project_id = toks[0]
+        logger.info('project_id=%s, keyname=%s' % (project_id,keyname))
+        try:
+            idx = None
+            if (project_id):
                 try:
                     idx = Index.objects.get(projectid=project_id)
                 except:
                     idx = None
+            key = None
+            if (keyname):
                 try:
                     key = Keys.objects.get(keyname=keyname)
                 except:
                     key = None
-                if (idx and key):
-                    items = KeyedValues.objects.get(projectid=idx.id,keyid=key.id)
-                    if (items.keyid.keyname == keyname):
-                        d = normalize_item(items)
-                        for k,v in d.iteritems():
-                            response[k] = v
-                        reasons.append('SUCCESS')
-                    else:
-                        reasons.append('FAILURE')
-            except Exception, ex:
-                reasons.append('ERROR: %s' % (ex))
-        else:
-            reasons.append('ERROR: Not enough args, expected 3 got %s.' % (len(toks)))
+            __items__ = []
+            if (idx and key):
+                items = KeyedValues.objects.get(projectid=idx.id,keyid=key.id)
+                if (items.keyid.keyname == keyname):
+                    d = normalize_item(items)
+                    for k,v in d.iteritems():
+                        response[k] = v
+                    reasons.append('SUCCESS')
+                else:
+                    reasons.append('FAILURE')
+            elif (idx):
+                items = KeyedValues.objects.filter(projectid=idx.id)
+                for item in items:
+                    __items__.append(normalize_item(item))
+            response['items'] = __items__
+            reasons.append('SUCCESS')
+        except Exception, ex:
+            reasons.append('ERROR: %s' % (ex))
         response['status'] = ''.join(reasons)
         content = json.dumps(response)
         return content
